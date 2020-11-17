@@ -20,10 +20,10 @@ You will need a reddit account and a twitter account. You will also need to inst
 First off you will need to create an app for your twitter account which can be done [here.](https://developer.twitter.com/en/apps) Make sure to take note of all the keys and secrets they give, you will need them later.
 You will need two files that will contain praw (`login.txt`) and tweepy (`access.txt`) info.
 
-login.txt
+####login.txt
 ```user_agent||client_id||client_secret||refresh_token```
 
-access.txt
+####access.txt
 ```consumer_key||consumer_secret||access_token||access_token_secret```
 
 Make sure the paths for the files are updated at `line 7` and `line 31`
