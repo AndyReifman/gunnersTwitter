@@ -28,8 +28,8 @@ def strip_title(title, num_characters):
 
 def connection(subreddit):
     try:
-        f = open('/home/andy/reddit/sidebar/login.txt')
-        admin,username,password,subreddit,user_agent,id,secret,redirect,refresh = f.readline().split('||',8)
+        f = open('/home/andy/twitter/login.txt')
+        user_agent,id,secret,refresh = f.readline().split('||',4)
         f.close()
         r = praw.Reddit(client_id=id,
              client_secret=secret,
